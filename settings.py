@@ -1,3 +1,6 @@
+import pygame
+
+
 #разные цвета
 WHITE = (255, 255, 255)
 BLACK =(0, 0, 0)
@@ -12,8 +15,8 @@ GOLD = (255,215,0)
 
 #конфиг
 TITLE = "Cursed wood"
-WIDTH = 600
-HEIGHT = 600
+WIDTH = 650
+HEIGHT = 650
 inventory_width = 500
 inventory_height = 500
 FPS = 60
@@ -31,8 +34,6 @@ INVTILESIZE = 48
 COINOFFSET = 4
 GRIDWIDTH = WIDTH / TILESIZE
 GRIDHEIGHT = HEIGHT / TILESIZE
-center_x = (WIDTH - inventory_width) // 2
-center_y = (HEIGHT - inventory_height) // 2
 
 BULLET_SPEED = 30
 DISPLAY_iNVENTORY = False
